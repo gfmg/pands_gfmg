@@ -11,8 +11,8 @@
 '''
 import datetime as dt
 
-inp=dt.datetime.now()
-res=inp.weekday()
+inp=dt.datetime.now() # Return current date
+res=inp.weekday() #Anything below 5 is weekday...5 or 6 is weekend. 
 
 if res < 5:
     print("Yes, unfortunately today is a weekday.")
