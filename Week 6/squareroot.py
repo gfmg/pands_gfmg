@@ -21,7 +21,7 @@ def sqrt(l= 0.0001): # N: positive integer to calculate square root
             if N < 0: #Check the input is positive, otherwise ask for a number again
                 print("Please enter a non-negative number")
                 continue
-            break
+            break #Breaks above while loop
         except ValueError:
             print("That was not a number. Please enter a number.")
     
